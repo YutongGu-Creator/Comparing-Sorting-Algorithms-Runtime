@@ -1,11 +1,11 @@
 public class Driver {
     public static void main(String[] args) {
-        System.out.println("Size           100     500     1000     10000");
-        System.out.printf("Bubble Sort    %.3f   %.3f   %.3f    %.3f\n", timeDifferenceBubbleSort(100), timeDifferenceBubbleSort(500), timeDifferenceBubbleSort(1000), timeDifferenceBubbleSort(10000));
-        System.out.printf("Selection Sort %.3f   %.3f   %.3f    %.3f\n", timeDifferenceSelectionSort(100), timeDifferenceSelectionSort(500), timeDifferenceSelectionSort(1000), timeDifferenceSelectionSort(10000));
-        System.out.printf("Insertion Sort %.3f   %.3f   %.3f    %.3f\n", timeDifferenceInsertionSort(100), timeDifferenceInsertionSort(500), timeDifferenceInsertionSort(1000), timeDifferenceInsertionSort(10000));
-        System.out.printf("Quick Sort     %.3f   %.3f   %.3f    %.3f\n", timeDifferenceQuickSort(100), timeDifferenceQuickSort(500), timeDifferenceQuickSort(1000), timeDifferenceQuickSort(10000));
-        System.out.printf("Counting Sort  %.3f   %.3f   %.3f    %.3f\n", timeDifferenceCountingSort(100), timeDifferenceCountingSort(500), timeDifferenceCountingSort(1000), timeDifferenceCountingSort(10000));
+        System.out.println("Size           100     500     1000     5000     10000");
+        System.out.printf("Bubble Sort    %.3f   %.3f   %.3f    %.3f   %.3f\n", timeDifferenceBubbleSort(100), timeDifferenceBubbleSort(500), timeDifferenceBubbleSort(1000), timeDifferenceBubbleSort(5000), timeDifferenceBubbleSort(10000));
+        System.out.printf("Selection Sort %.3f   %.3f   %.3f    %.3f    %.3f\n", timeDifferenceSelectionSort(100), timeDifferenceSelectionSort(500), timeDifferenceSelectionSort(1000), timeDifferenceSelectionSort(5000), timeDifferenceSelectionSort(10000));
+        System.out.printf("Insertion Sort %.3f   %.3f   %.3f    %.3f    %.3f\n", timeDifferenceInsertionSort(100), timeDifferenceInsertionSort(500), timeDifferenceInsertionSort(1000), timeDifferenceInsertionSort(5000), timeDifferenceInsertionSort(10000));
+        System.out.printf("Quick Sort     %.3f   %.3f   %.3f    %.3f    %.3f\n", timeDifferenceQuickSort(100), timeDifferenceQuickSort(500), timeDifferenceQuickSort(1000), timeDifferenceQuickSort(5000), timeDifferenceQuickSort(10000));
+        System.out.printf("Counting Sort  %.3f   %.3f   %.3f    %.3f    %.3f\n", timeDifferenceCountingSort(100), timeDifferenceCountingSort(500), timeDifferenceCountingSort(1000), timeDifferenceCountingSort(5000), timeDifferenceCountingSort(10000));
     }
 
     // used for generating an array of random integers of certain length
